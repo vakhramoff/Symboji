@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Symboji
+
+  Created by Сергей Вахрамов on 19/03/2019.
+  Copyright © 2019 Sergey Vakhramov. All rights reserved.
+*/
+
+"PrivacyPolicy.Back" = "Назад";
+
+"PrivacyPolicy.IsAvailableInEnglish" = "Политика конфиденциальности доступна на английском языке.\n\n\n";
+
+
+"MainScreen.AppDescription" = "Данное приложение позволяет быстро печатать символы со стандартной клавиатуры macOS. И некоторые другие.";
+
+"MainScreen.AddKeyboardInstructions" = "Чтобы добавить клавиатуру, необходимо перейти в \"Настройки > Основные > Клавиатура > Клавиатуры > Новые клавиатуры...\".";
+
+"MainScreen.OpenSettings" = "Открыть настройки";
+
+"MainScreen.ContactTheDeveloper" = "Написать разработчику";
+
+"MainScreen.ShowPrivacyPolicy" = "Политика конфиденциальности";
+
+
+"MainScreen.ContactTheDeveloper.MailTopic" = "Symboji – Отклик";
+
+"MainScreen.ContactTheDeveloper.MailBodyText" = "<b>Будьте добры, опишите вашу проблему здесь:</b></br></br></br></br><b>----------</b></br><span style=\"color:red;\"><b>Пожалуйста, не удаляйте информацию ниже!</b></span></br></br><i>Hardware ID: %@</br>Device name: %@</br>System version: %@ %@</i><span style=\"color:red;\"></br><b>----------</b></br></span>";
+
+"MainScreen.ContactTheDeveloper.SendMailErrorTitle" = "Ошибка";
+
+"MainScreen.ContactTheDeveloper.SendMailErrorMessage" = "Не получается отправить сообщение. Вероятно, в систему не добавлен ни один почтовый аккаунт.";

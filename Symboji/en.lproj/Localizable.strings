@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Symboji
+
+  Created by Сергей Вахрамов on 19/03/2019.
+  Copyright © 2019 Sergey Vakhramov. All rights reserved.
+*/
+
+"PrivacyPolicy.Back" = "Back";
+
+"PrivacyPolicy.IsAvailableInEnglish" = "";
+
+
+"MainScreen.OpenSettings" = "Open Settings";
+
+"MainScreen.ContactTheDeveloper" = "Contact the Developer";
+
+"MainScreen.ShowPrivacyPolicy" = "Privacy Policy";
+
+"MainScreen.AppDescription" = "This app allows you to fastly type some symbols from native macOS keyboard. And a few more.";
+
+"MainScreen.AddKeyboardInstructions" = "To start using this keyboard you have to add it in \"Settings > General > Keyboard > Keyboards > Add New Keyboard...\".";
+
+
+"MainScreen.ContactTheDeveloper.MailTopic" = "Symboji – Feedback";
+
+"MainScreen.ContactTheDeveloper.MailBodyText" = "<b>Please kindly put your message here:</b></br></br></br></br><b>----------</b></br><span style=\"color:red;\"><b>Please do not remove the information below!</b></span></br></br><i>Hardware ID: %@</br>Device name: %@</br>System version: %@ %@</i><span style=\"color:red;\"></br><b>----------</b></br></span>";
+
+"MainScreen.ContactTheDeveloper.SendMailErrorTitle" = "Error";
+
+"MainScreen.ContactTheDeveloper.SendMailErrorMessage" = "Cannot send a message. Probably, there was no E-mail account added to the system.";

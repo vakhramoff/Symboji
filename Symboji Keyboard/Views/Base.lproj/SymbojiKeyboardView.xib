@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SymbojiKeyboardView" customModule="Symboji_Keyboard" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SymbojiKeyboardView" customModule="Symboji_Keyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="623" height="566"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTn-eF-ZhT" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="162" y="212" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇧">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="zrp-8Z-AVh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebN-xk-zaz" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="162" y="132" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇪">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="aLV-ne-MGX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M8-3x-cMw" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="162" y="52" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇥">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="Oq9-Hn-Z8i"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEN-I2-KF8" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="85" y="132" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="Qfl-xB-8XP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtE-Q3-lPp" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="85" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="⎋">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="tnR-LL-U60"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSK-ih-jL8" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="315.5" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⤵">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="rYX-gz-Nyn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-za-AIr" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="315.5" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌫">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="u0n-MZ-90R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgX-KO-Wzd" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="469.5" y="292" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="↑">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="cKQ-4H-R8m"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjl-QV-o1h" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="392.5" y="132" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⏎">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="YpL-PB-eSG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-HQ-ev4" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="392.5" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌧">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="H0I-FF-yXe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Br-Lx-Oim" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="469.5" y="212" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇟">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="xEO-mj-v5T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZY8-95-Oe5" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="469.5" y="372" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="↓">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="1JO-Jn-f8s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0q-KL-wvf" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="546" y="372" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="→">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="0ba-OK-jUk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFP-NK-vTc" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="469.5" y="132" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇞">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="Ujq-Ml-hE2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Pt-OX-h3d" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="469.5" y="52" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⇤">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="bTt-cR-Ria"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="030-jb-Jvb" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="546" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="↘">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="xjN-g0-tfh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHF-4G-D84" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="546" y="132" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="↖">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="anc-ZA-wlv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c77-eS-zwq" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="546" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⏏">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="StP-2F-d7T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXJ-F2-s98" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="8" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="🅁">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="qZc-D9-7rE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZh-Ef-KoL" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="8" y="132" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="🅂">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="oY6-z4-6rb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bh-ki-4tl" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="8" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="₿">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="gbc-Rm-z8y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUV-2f-v9b" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="392.5" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌤">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="m6R-Jv-gcL"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifb-NH-gmJ" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="238.5" y="52" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICI-T3-mrd" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="85" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syu-Vq-Z2w" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="238.5" y="212" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G8-uY-RNh" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="546" y="292" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhA-Wm-GJF" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="238.5" y="132" width="146" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWr-W9-eie" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="8" y="292" width="453.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTH-5W-4Zh" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="8" y="372" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌃">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="O5g-zW-S4P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtS-jM-M4B" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="85" y="372" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌥">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="NAA-8N-EdW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO8-BO-3uu" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="392.5" y="372" width="69" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="←">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="XAT-T1-Jk6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yet-sD-hRS" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="162" y="372" width="68.5" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="⌘">
+                        <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="ZZg-R7-Z26"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhY-or-1dI" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="238.5" y="372" width="146" height="72"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="sep">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <stackView opaque="NO" contentMode="scaleAspectFit" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OEK-qE-GG5">
+                    <rect key="frame" x="8" y="452" width="607" height="72"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crf-cE-PPv" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="146" height="72"/>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUD-4V-Tw9" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                            <rect key="frame" x="154" y="0.0" width="299.5" height="72"/>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="Space">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="fns-SV-ckv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzf-po-2Lk" customClass="KeyboardButton" customModule="Symboji_Keyboard" customModuleProvider="target">
+                            <rect key="frame" x="461.5" y="0.0" width="145.5" height="72"/>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="Delete">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapButtonWithSender:" destination="iN0-l3-epB" eventType="touchDown" id="Sff-Ts-IEt"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Lzf-po-2Lk" firstAttribute="width" secondItem="crf-cE-PPv" secondAttribute="width" id="ZcV-Ds-UNG"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xhA-Wm-GJF" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="0Rm-zm-GAY"/>
+                <constraint firstItem="LhY-or-1dI" firstAttribute="top" secondItem="iWr-W9-eie" secondAttribute="bottom" constant="8" id="12f-Fh-D6g"/>
+                <constraint firstItem="rjl-QV-o1h" firstAttribute="leading" secondItem="xhA-Wm-GJF" secondAttribute="trailing" constant="8" id="1Wa-7s-qcd"/>
+                <constraint firstItem="uXJ-F2-s98" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="1yC-iK-pdx"/>
+                <constraint firstItem="uFP-NK-vTc" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="1yE-RC-Amh"/>
+                <constraint firstItem="xhA-Wm-GJF" firstAttribute="width" secondItem="LhY-or-1dI" secondAttribute="width" id="21H-Aa-nmM"/>
+                <constraint firstItem="Yet-sD-hRS" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="28R-qi-xXQ"/>
+                <constraint firstItem="qgX-KO-Wzd" firstAttribute="top" secondItem="6Br-Lx-Oim" secondAttribute="bottom" constant="8" id="2bm-n7-c0u"/>
+                <constraint firstItem="ICI-T3-mrd" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="32x-d6-Zfa"/>
+                <constraint firstItem="ifb-NH-gmJ" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="38r-UT-HjP"/>
+                <constraint firstItem="LtA-HQ-ev4" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="3CI-FF-48w"/>
+                <constraint firstItem="rEN-I2-KF8" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" id="4y7-mN-aIb"/>
+                <constraint firstItem="tSK-ih-jL8" firstAttribute="width" secondItem="uXJ-F2-s98" secondAttribute="width" id="5d8-wD-2ca"/>
+                <constraint firstItem="iHF-4G-D84" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="5dZ-th-wH3"/>
+                <constraint firstItem="RTH-5W-4Zh" firstAttribute="top" secondItem="iWr-W9-eie" secondAttribute="bottom" constant="8" id="6FD-r9-85v"/>
+                <constraint firstItem="qgX-KO-Wzd" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="7eY-am-sqN"/>
+                <constraint firstItem="ZY8-95-Oe5" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="7o7-QP-wZG"/>
+                <constraint firstItem="rEN-I2-KF8" firstAttribute="top" secondItem="CtE-Q3-lPp" secondAttribute="bottom" constant="8" id="8DH-N6-Vo2"/>
+                <constraint firstItem="tSK-ih-jL8" firstAttribute="top" secondItem="xhA-Wm-GJF" secondAttribute="bottom" constant="8" id="8Q1-4t-rgA"/>
+                <constraint firstItem="CtE-Q3-lPp" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="8eT-RM-nKF"/>
+                <constraint firstItem="iHF-4G-D84" firstAttribute="top" secondItem="c77-eS-zwq" secondAttribute="bottom" constant="8" id="9qP-Ax-3RQ"/>
+                <constraint firstItem="4M8-3x-cMw" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="ABd-II-jDJ"/>
+                <constraint firstItem="c77-eS-zwq" firstAttribute="leading" secondItem="4Pt-OX-h3d" secondAttribute="trailing" constant="8" id="AR7-Fj-DQo"/>
+                <constraint firstItem="8bh-ki-4tl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="B0f-4J-nAn"/>
+                <constraint firstItem="ebN-xk-zaz" firstAttribute="top" secondItem="4M8-3x-cMw" secondAttribute="bottom" constant="8" id="BbA-B2-Vwx"/>
+                <constraint firstItem="6Br-Lx-Oim" firstAttribute="width" secondItem="uXJ-F2-s98" secondAttribute="width" id="Cfx-IO-zSb"/>
+                <constraint firstItem="rEN-I2-KF8" firstAttribute="leading" secondItem="oZh-Ef-KoL" secondAttribute="trailing" constant="8" id="DNu-ii-Haw"/>
+                <constraint firstItem="LtA-HQ-ev4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Dar-hV-31f"/>
+                <constraint firstItem="ZY8-95-Oe5" firstAttribute="width" secondItem="RTH-5W-4Zh" secondAttribute="width" id="ERt-oy-t6e"/>
+                <constraint firstItem="PO8-BO-3uu" firstAttribute="leading" secondItem="LhY-or-1dI" secondAttribute="trailing" constant="8" id="EiP-Ty-UDM"/>
+                <constraint firstItem="VtS-jM-M4B" firstAttribute="leading" secondItem="RTH-5W-4Zh" secondAttribute="trailing" constant="8" id="Est-Rg-H8t"/>
+                <constraint firstItem="Kaf-za-AIr" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="Ett-EL-dv5"/>
+                <constraint firstItem="tSK-ih-jL8" firstAttribute="leading" secondItem="syu-Vq-Z2w" secondAttribute="trailing" constant="8" id="FE0-lA-438"/>
+                <constraint firstItem="uXJ-F2-s98" firstAttribute="top" secondItem="oZh-Ef-KoL" secondAttribute="bottom" constant="8" id="Fj2-mL-99d"/>
+                <constraint firstItem="CtE-Q3-lPp" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="GxG-50-Umr"/>
+                <constraint firstItem="PO8-BO-3uu" firstAttribute="width" secondItem="RTH-5W-4Zh" secondAttribute="width" id="H3U-A0-1jS"/>
+                <constraint firstItem="rjl-QV-o1h" firstAttribute="top" secondItem="LtA-HQ-ev4" secondAttribute="bottom" constant="8" id="H4g-Pn-aaV"/>
+                <constraint firstItem="qgX-KO-Wzd" firstAttribute="leading" secondItem="iWr-W9-eie" secondAttribute="trailing" constant="8" id="HM5-x7-D70"/>
+                <constraint firstItem="ebN-xk-zaz" firstAttribute="leading" secondItem="rEN-I2-KF8" secondAttribute="trailing" constant="8" id="IPH-dm-rX3"/>
+                <constraint firstItem="4Pt-OX-h3d" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="Ik8-sC-lB2"/>
+                <constraint firstItem="OEK-qE-GG5" firstAttribute="top" secondItem="ZY8-95-Oe5" secondAttribute="bottom" constant="8" id="ImJ-S0-B2s"/>
+                <constraint firstItem="OEK-qE-GG5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Iwg-Wz-a2q"/>
+                <constraint firstItem="4Pt-OX-h3d" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="JKO-Kb-ejf"/>
+                <constraint firstItem="030-jb-Jvb" firstAttribute="width" secondItem="uXJ-F2-s98" secondAttribute="width" id="JXS-aJ-SmE"/>
+                <constraint firstItem="LhY-or-1dI" firstAttribute="width" secondItem="crf-cE-PPv" secondAttribute="width" id="JwO-YJ-rUv"/>
+                <constraint firstItem="4M8-3x-cMw" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="KDi-Cz-jvU"/>
+                <constraint firstItem="030-jb-Jvb" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="KEF-f4-aG3"/>
+                <constraint firstItem="4M8-3x-cMw" firstAttribute="leading" secondItem="CtE-Q3-lPp" secondAttribute="trailing" constant="8" id="Ko8-Td-mlT"/>
+                <constraint firstItem="uXJ-F2-s98" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="L4T-pE-EHQ"/>
+                <constraint firstItem="VtS-jM-M4B" firstAttribute="width" secondItem="RTH-5W-4Zh" secondAttribute="width" id="LIv-38-pEk"/>
+                <constraint firstItem="N0q-KL-wvf" firstAttribute="width" secondItem="RTH-5W-4Zh" secondAttribute="width" id="Led-Om-E0O"/>
+                <constraint firstItem="OEK-qE-GG5" firstAttribute="height" secondItem="RTH-5W-4Zh" secondAttribute="height" id="Ll5-IK-25c"/>
+                <constraint firstItem="LhY-or-1dI" firstAttribute="leading" secondItem="Yet-sD-hRS" secondAttribute="trailing" constant="8" id="MAR-g8-dFR"/>
+                <constraint firstItem="030-jb-Jvb" firstAttribute="width" secondItem="qgX-KO-Wzd" secondAttribute="width" id="MUZ-5o-IKr"/>
+                <constraint firstItem="rjl-QV-o1h" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" id="MaC-Ob-GlD"/>
+                <constraint firstItem="ZY8-95-Oe5" firstAttribute="top" secondItem="qgX-KO-Wzd" secondAttribute="bottom" constant="8" id="N5E-fc-7yC"/>
+                <constraint firstItem="6Br-Lx-Oim" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="NYN-UP-X9a"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="c77-eS-zwq" secondAttribute="trailing" constant="8" id="Nld-eE-J33"/>
+                <constraint firstItem="VtS-jM-M4B" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="OcY-HR-oRD"/>
+                <constraint firstItem="qUV-2f-v9b" firstAttribute="width" secondItem="uXJ-F2-s98" secondAttribute="width" id="OdF-TD-F5w"/>
+                <constraint firstItem="Kaf-za-AIr" firstAttribute="leading" secondItem="ifb-NH-gmJ" secondAttribute="trailing" constant="8" id="QEI-5f-FIJ"/>
+                <constraint firstItem="qUV-2f-v9b" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="QVp-p3-C1r"/>
+                <constraint firstItem="syu-Vq-Z2w" firstAttribute="leading" secondItem="lTn-eF-ZhT" secondAttribute="trailing" constant="8" id="Qif-hY-7C3"/>
+                <constraint firstItem="oZh-Ef-KoL" firstAttribute="top" secondItem="8bh-ki-4tl" secondAttribute="bottom" constant="8" id="Rnq-CL-XhP"/>
+                <constraint firstItem="N0q-KL-wvf" firstAttribute="leading" secondItem="ZY8-95-Oe5" secondAttribute="trailing" constant="8" id="SGb-3i-QJG"/>
+                <constraint firstItem="syu-Vq-Z2w" firstAttribute="top" secondItem="xhA-Wm-GJF" secondAttribute="bottom" constant="8" id="SGh-E8-4hE"/>
+                <constraint firstItem="Yet-sD-hRS" firstAttribute="top" secondItem="iWr-W9-eie" secondAttribute="bottom" constant="8" id="SOM-Mf-ISG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="N0q-KL-wvf" secondAttribute="trailing" constant="8" id="SaP-m4-L1L"/>
+                <constraint firstItem="ZY8-95-Oe5" firstAttribute="leading" secondItem="PO8-BO-3uu" secondAttribute="trailing" constant="8" id="Sf5-32-Y3A"/>
+                <constraint firstItem="Yet-sD-hRS" firstAttribute="width" secondItem="RTH-5W-4Zh" secondAttribute="width" id="TJZ-Md-Asq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="030-jb-Jvb" secondAttribute="trailing" constant="8" id="VDf-TG-tVd"/>
+                <constraint firstItem="LtA-HQ-ev4" firstAttribute="leading" secondItem="Kaf-za-AIr" secondAttribute="trailing" constant="8" id="VfD-mR-ady"/>
+                <constraint firstItem="qUV-2f-v9b" firstAttribute="top" secondItem="rjl-QV-o1h" secondAttribute="bottom" constant="8" id="WFD-sH-0Tm"/>
+                <constraint firstItem="ifb-NH-gmJ" firstAttribute="width" secondItem="ICI-T3-mrd" secondAttribute="width" id="WTm-j2-e6G"/>
+                <constraint firstItem="RTH-5W-4Zh" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="Wxl-pj-2AT"/>
+                <constraint firstItem="xhA-Wm-GJF" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" multiplier="2" constant="8" id="YDV-Wv-8Om"/>
+                <constraint firstItem="Kaf-za-AIr" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="Yq0-YO-xfo"/>
+                <constraint firstItem="uFP-NK-vTc" firstAttribute="leading" secondItem="rjl-QV-o1h" secondAttribute="trailing" constant="8" id="a2z-JW-QRP"/>
+                <constraint firstItem="lTn-eF-ZhT" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="aAF-BI-dAE"/>
+                <constraint firstItem="8bh-ki-4tl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="axd-6h-ukB"/>
+                <constraint firstItem="CtE-Q3-lPp" firstAttribute="leading" secondItem="8bh-ki-4tl" secondAttribute="trailing" constant="8" id="bHy-pn-PmY"/>
+                <constraint firstItem="ifb-NH-gmJ" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="bTi-NW-L0g"/>
+                <constraint firstItem="c77-eS-zwq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="bXb-Et-yni"/>
+                <constraint firstItem="iWr-W9-eie" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="btS-fL-LYC"/>
+                <constraint firstItem="oZh-Ef-KoL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="c8g-JV-IIr"/>
+                <constraint firstItem="oZh-Ef-KoL" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="cZt-9R-fgG"/>
+                <constraint firstItem="c77-eS-zwq" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="cht-IZ-Ob2"/>
+                <constraint firstItem="030-jb-Jvb" firstAttribute="top" secondItem="iHF-4G-D84" secondAttribute="bottom" constant="8" id="dKS-IW-qNb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OEK-qE-GG5" secondAttribute="trailing" constant="8" id="dh0-Y9-eOd"/>
+                <constraint firstItem="6G8-uY-RNh" firstAttribute="leading" secondItem="qgX-KO-Wzd" secondAttribute="trailing" constant="8" id="eBy-XB-2Vo"/>
+                <constraint firstItem="6G8-uY-RNh" firstAttribute="width" secondItem="qgX-KO-Wzd" secondAttribute="width" id="eFY-hT-wpU"/>
+                <constraint firstItem="uFP-NK-vTc" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" id="eTa-8Q-ElL"/>
+                <constraint firstItem="4Pt-OX-h3d" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="efj-g0-H3i"/>
+                <constraint firstItem="ifb-NH-gmJ" firstAttribute="leading" secondItem="4M8-3x-cMw" secondAttribute="trailing" constant="8" id="elA-id-FPf"/>
+                <constraint firstItem="tSK-ih-jL8" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="eor-5R-ems"/>
+                <constraint firstItem="syu-Vq-Z2w" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="evt-Db-hjM"/>
+                <constraint firstItem="CtE-Q3-lPp" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="fhl-xr-FPZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6G8-uY-RNh" secondAttribute="trailing" constant="8" id="fhv-ck-6ny"/>
+                <constraint firstItem="6G8-uY-RNh" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="glv-4L-qvr"/>
+                <constraint firstItem="rEN-I2-KF8" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="gr6-18-fL8"/>
+                <constraint firstItem="iHF-4G-D84" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" id="i06-uM-UX0"/>
+                <constraint firstItem="PO8-BO-3uu" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="iPT-SP-oup"/>
+                <constraint firstItem="N0q-KL-wvf" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="jlL-Uv-gt0"/>
+                <constraint firstItem="iWr-W9-eie" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="jwP-hB-122"/>
+                <constraint firstItem="ebN-xk-zaz" firstAttribute="width" secondItem="oZh-Ef-KoL" secondAttribute="width" id="jzB-UZ-SeT"/>
+                <constraint firstItem="syu-Vq-Z2w" firstAttribute="width" secondItem="ICI-T3-mrd" secondAttribute="width" id="k1G-Cx-9C8"/>
+                <constraint firstItem="Yet-sD-hRS" firstAttribute="leading" secondItem="VtS-jM-M4B" secondAttribute="trailing" constant="8" id="k8u-D1-lzT"/>
+                <constraint firstItem="iWr-W9-eie" firstAttribute="top" secondItem="lTn-eF-ZhT" secondAttribute="bottom" constant="8" id="kOr-Go-QDJ"/>
+                <constraint firstItem="ICI-T3-mrd" firstAttribute="leading" secondItem="uXJ-F2-s98" secondAttribute="trailing" constant="8" id="l3b-Ck-IL0"/>
+                <constraint firstItem="LhY-or-1dI" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="l8Z-D0-VdR"/>
+                <constraint firstItem="uFP-NK-vTc" firstAttribute="top" secondItem="4Pt-OX-h3d" secondAttribute="bottom" constant="8" id="lSN-XN-9vW"/>
+                <constraint firstItem="LtA-HQ-ev4" firstAttribute="width" secondItem="8bh-ki-4tl" secondAttribute="width" id="n2s-Yu-aVt"/>
+                <constraint firstItem="lTn-eF-ZhT" firstAttribute="width" secondItem="uXJ-F2-s98" secondAttribute="width" id="n9R-KM-h0t"/>
+                <constraint firstItem="VtS-jM-M4B" firstAttribute="top" secondItem="iWr-W9-eie" secondAttribute="bottom" constant="8" id="nS2-CB-2as"/>
+                <constraint firstItem="ICI-T3-mrd" firstAttribute="top" secondItem="rEN-I2-KF8" secondAttribute="bottom" constant="8" id="nvl-3q-JkC"/>
+                <constraint firstItem="030-jb-Jvb" firstAttribute="leading" secondItem="6Br-Lx-Oim" secondAttribute="trailing" constant="8" id="oJ0-WP-2iZ"/>
+                <constraint firstItem="RTH-5W-4Zh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="olO-rI-VBK"/>
+                <constraint firstItem="rjl-QV-o1h" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="oy5-l9-UMv"/>
+                <constraint firstItem="4M8-3x-cMw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="qsL-MA-IOy"/>
+                <constraint firstItem="c77-eS-zwq" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="rgm-A0-CbK"/>
+                <constraint firstItem="4Pt-OX-h3d" firstAttribute="leading" secondItem="LtA-HQ-ev4" secondAttribute="trailing" constant="8" id="sfZ-Yz-na7"/>
+                <constraint firstItem="N0q-KL-wvf" firstAttribute="top" secondItem="6G8-uY-RNh" secondAttribute="bottom" constant="8" id="sos-hb-h9D"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="OEK-qE-GG5" secondAttribute="bottom" constant="8" id="t9v-Vn-rEe"/>
+                <constraint firstItem="PO8-BO-3uu" firstAttribute="top" secondItem="iWr-W9-eie" secondAttribute="bottom" constant="8" id="tCW-iy-aXt"/>
+                <constraint firstItem="6G8-uY-RNh" firstAttribute="top" secondItem="030-jb-Jvb" secondAttribute="bottom" constant="8" id="tIe-nG-lcW"/>
+                <constraint firstItem="lTn-eF-ZhT" firstAttribute="leading" secondItem="ICI-T3-mrd" secondAttribute="trailing" constant="8" id="tNM-1k-ogY"/>
+                <constraint firstItem="xhA-Wm-GJF" firstAttribute="top" secondItem="Kaf-za-AIr" secondAttribute="bottom" constant="8" id="tQF-of-adj"/>
+                <constraint firstItem="iHF-4G-D84" firstAttribute="leading" secondItem="uFP-NK-vTc" secondAttribute="trailing" constant="8" id="tVX-gL-Z6n"/>
+                <constraint firstItem="6Br-Lx-Oim" firstAttribute="leading" secondItem="qUV-2f-v9b" secondAttribute="trailing" constant="8" id="tX4-4l-oVd"/>
+                <constraint firstItem="6Br-Lx-Oim" firstAttribute="top" secondItem="uFP-NK-vTc" secondAttribute="bottom" constant="8" id="tuh-4b-zFW"/>
+                <constraint firstItem="Kaf-za-AIr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="u7A-jC-dvH"/>
+                <constraint firstItem="ebN-xk-zaz" firstAttribute="height" secondItem="8bh-ki-4tl" secondAttribute="height" id="wcI-W3-RZt"/>
+                <constraint firstItem="xhA-Wm-GJF" firstAttribute="leading" secondItem="ebN-xk-zaz" secondAttribute="trailing" constant="8" id="wdw-m0-4nc"/>
+                <constraint firstItem="qUV-2f-v9b" firstAttribute="leading" secondItem="tSK-ih-jL8" secondAttribute="trailing" constant="8" id="xFh-yl-QIa"/>
+                <constraint firstItem="ifb-NH-gmJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="xVg-rI-Eff"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iHF-4G-D84" secondAttribute="trailing" constant="8" id="yvC-Z1-Ime"/>
+                <constraint firstItem="lTn-eF-ZhT" firstAttribute="top" secondItem="ebN-xk-zaz" secondAttribute="bottom" constant="8" id="zJf-nU-MJT"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="deleteKeyboardButton" destination="Lzf-po-2Lk" id="Jv6-xx-uOu"/>
+                <outlet property="nextKeyboardButton" destination="crf-cE-PPv" id="Tfs-be-1Yr"/>
+                <outlet property="spaceKeyboardButton" destination="CUD-4V-Tw9" id="L33-v8-Unt"/>
+            </connections>
+            <point key="canvasLocation" x="-309" y="-801"/>
+        </view>
+    </objects>
+</document>
